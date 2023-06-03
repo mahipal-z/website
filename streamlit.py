@@ -18,23 +18,22 @@ st.set_page_config(
 st.title("About Me")
 
 st.markdown(
-  """Everyday engineer invested in Data Analytics and Cloud Technology.
-     \nSomeone who will enjoy being part of your Data/AI/ML team. """)
+  """Everyday engineer who possess strong interest in everything data, cloud :cloud: and emerging technologies.
+  Someone who will enjoy being part of your Data/AI/ML team. """)
 
-st.markdown("""Experienced in
-- Collecting and Cleaning Data 
-- Finding insights and building Dashboards
-- Building and Deploying ML Models
+st.markdown("""Currently invested in
+- Designing and integrating ETL/ELT pipelines
+- Collecting and cleaning data 
+- Finding insights and building dashboards
+- Developing and deploying ML models
      """
 )
 
 st.divider()
 st.subheader("Connect with Me")
 
-st.markdown(
-  """LinkedIn
-  \nGitHub
-  \nMedium
+st.write(
+  """[:blue[LinkedIn]](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [:violet[Medium]](https://medium.com/@storiesbymahipal)
   """
 )
 st.divider()
@@ -42,10 +41,10 @@ st.divider()
 st.subheader("I could be a good company if")
 
 st.markdown("""
-- You challenge me for a game of Chess: @mahipalzankat chess.com
-- Or Hiking nearby or trying a new restaurant
-- Or Bowling, Lifting Weights, Card games, Board games or Cooking
-- Or you are willing to teach me Swimming, Golfing, or Piano
+- You challenge me to a game of Chess :chess_pawn: [@mahipalzankat on chess.come](https://friend.chess.com/W7Xra)
+- Or Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
+- Or Bowling, :bowling: Lifting Weights, :weight_lifter: Card games, Board games, :game_die: or Cooking
+- Or you are willing to teach me Swimming, :swimmer: Golfing, :golfer: Pool, :8ball: or Piano :musical_keyboard:
 """
 )            
 
