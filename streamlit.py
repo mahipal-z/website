@@ -26,6 +26,7 @@ st.markdown(
      - Building and Deploying ML Models
      """
 )
+
 st.divider()
 st.subheader("Connect with Me")
 
@@ -34,6 +35,7 @@ st.markdown(
   \nGitHub
   \nMedium
   """
+)
 st.divider()
 
 st.subheader("I could be a good company:")
@@ -44,8 +46,10 @@ st.markdown("""
 - Indoors: Bowling, Lifting Weights, Card games, Board games and Cooking
 - Looking forward to learn some day: Swimming, Golfing, Piano
 """
-            
- ######################
+)            
+
+
+######################
 #sidebar layout
 ######################
 
