@@ -18,12 +18,13 @@ st.set_page_config(
 st.title("About Me")
 
 st.markdown(
-  """Everyday engineer fully invested in the Data Analytics and Cloud Technology since past few years.
-     \nSomeone who will enjoy to be part of the Data Team in your organization. 
-     \nExperienced in:
-     - Collecting and Cleaning Data 
-     - Finding insights and building Dashboards
-     - Building and Deploying ML Models
+  """Everyday engineer fully invested in Data Analytics and Cloud Technology in the past few years.
+     \nSomeone who will enjoy being part of your Data/AI/ML team. """)
+
+st.markdown("""Experienced in:
+- Collecting and Cleaning Data 
+- Finding insights and building Dashboards
+- Building and Deploying ML Models
      """
 )
 
@@ -38,13 +39,13 @@ st.markdown(
 )
 st.divider()
 
-st.subheader("I could be a good company:")
+st.subheader("I could be a good company if")
 
 st.markdown("""
-- if you challenge me for a game of Chess: @mahipalzankat chess.com
-- Outdoors: Hiking nearby, Trying new food
-- Indoors: Bowling, Lifting Weights, Card games, Board games and Cooking
-- Looking forward to learn some day: Swimming, Golfing, Piano
+- You challenge me for a game of Chess: @mahipalzankat chess.com
+- Or Hiking nearby or trying a new restaurant
+- Or Bowling, Lifting Weights, Card games, Board games or Cooking
+- Or you are willing to teach me Swimming, Golfing, or Piano
 """
 )            
 
