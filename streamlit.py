@@ -54,7 +54,7 @@ st.markdown("""
 #sidebar layout
 ######################
 
-st.sidebar.title("Mahipal Zanakat")
+st.sidebar.title("**Mahipal Zanakat**")
 st.sidebar.image(image1, width=250)
             
 st.sidebar.write("Portfolio")
