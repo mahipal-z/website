@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-image1 = Image.open('Photo May2020.jpg')
+image1 = Image.open('Photo Web.jpg')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
