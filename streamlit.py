@@ -18,10 +18,10 @@ st.set_page_config(
 st.title("About Me")
 
 st.markdown(
-  """Everyday engineer fully invested in Data Analytics and Cloud Technology in the past few years.
+  """Everyday engineer invested in Data Analytics and Cloud Technology.
      \nSomeone who will enjoy being part of your Data/AI/ML team. """)
 
-st.markdown("""Experienced in:
+st.markdown("""Experienced in
 - Collecting and Cleaning Data 
 - Finding insights and building Dashboards
 - Building and Deploying ML Models
@@ -57,6 +57,6 @@ st.markdown("""
 st.sidebar.title("**Mahipal Zanakat**")
 st.sidebar.image(image1, width=250)
             
-st.sidebar.write("Portfolio")
+st.sidebar.write("**Portfolio**")
 
             
