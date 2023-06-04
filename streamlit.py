@@ -29,6 +29,7 @@ st.markdown("""Currently invested in
 - Developing and deploying ML models
      """
 )
+st.markdown("""\n""")
 st.markdown("""**Connect with me on** [**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
   """)
 st.divider()
