@@ -59,7 +59,7 @@ st.subheader("Education")
 
 st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
          \n**Data Scientist in Python | DataCamp**
-         \n**Data Analst in SQL | DataCamp**
+         \n**Data Analyst in SQL | DataCamp**
          \n**Machine Learning by Andrew Ng. | Stanford University**""")
 
 
