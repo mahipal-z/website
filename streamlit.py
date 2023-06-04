@@ -4,10 +4,11 @@ import streamlit as st
 from PIL import Image
 
 image1 = Image.open('Photo Web.jpg')
+image2 = Image.opem('Photo May2020.jpg')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
-    page_icon=image1 
+    page_icon=image2 
 )
 
 
@@ -18,7 +19,7 @@ st.set_page_config(
 st.title("About Me")
 
 st.markdown(
-  """Everyday engineer who possess strong interest in everything data, cloud :cloud: and emerging technologies.
+  """Everyday engineer who possess strong interest in everything data, 	:bar_chart: cloud, :cloud: and emerging technologies. :robot_face:
   Someone who will enjoy being part of your Data/AI/ML team. """)
 
 st.markdown("""Currently invested in
@@ -30,23 +31,40 @@ st.markdown("""Currently invested in
 )
 
 st.divider()
-st.subheader("Connect with Me")
 
-st.write(
-  """[:blue[LinkedIn]](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [:violet[Medium]](https://medium.com/@storiesbymahipal)
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.subheader("Connect with me on")
+    st.write(
+  """[**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat)
+  \n[**GitHub**](https://github.com/mahipal-z)
+  \n[**Medium**](https://medium.com/@storiesbymahipal)
   """
 )
-st.divider()
 
-st.subheader("I could be a good company if")
-
-st.markdown("""
-- You challenge me to a game of Chess :chess_pawn: [@mahipalzankat on chess.come](https://friend.chess.com/W7Xra)
+with col2:
+    st.subheader("I could be a good company if")
+    st.markdown("""
+- You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 - Or Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
 - Or Bowling, :bowling: Lifting Weights, :weight_lifter: Card games, Board games, :game_die: or Cooking
 - Or you are willing to teach me Swimming, :swimmer: Golfing, :golfer: Pool, :8ball: or Piano :musical_keyboard:
 """
-)            
+)
+
+st.divider()
+
+st.subheader("Certification")
+
+
+
+st.subheader("Education")
+
+St.write("""Master of Engineering, Mechanical | University of Ottawa
+         \nData Scientist in Python | DataCamp
+         \nData Analst in SQL | DataCamp
+         \nMachine Learning by Andrew Ng. | Stanford University""")
 
 
 ######################
@@ -54,8 +72,8 @@ st.markdown("""
 ######################
 
 st.sidebar.title("**Mahipal Zanakat**")
-st.sidebar.image(image1, width=250)
+st.sidebar.image(image1)
             
-st.sidebar.write("**Portfolio**")
+st.sidebar.subheader("Portfolio")
 
             
