@@ -42,10 +42,10 @@ st.divider()
 #with col2:
 st.subheader("I could be a good company if")
 st.markdown("""
-- You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
-- Or Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
-- Or Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
-- Or you are willing to teach me Swimming :swimmer:, Golfing :golfer:, Pool :8ball:, or Piano :musical_keyboard:
+You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
+\nOr Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
+\nOr Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
+\nOr you are willing to teach me Swimming :swimmer:, Golfing :golfer:, Pool :8ball:, or Piano :musical_keyboard:
 """
 )
 
@@ -57,7 +57,7 @@ st.subheader("Certification")
 
 st.subheader("Education")
 
-st.write("""**Master of Engineering, Mechanical | University of Ottawa
+st.markdown("""**Master of Engineering, Mechanical | University of Ottawa
          \nData Scientist in Python | DataCamp
          \nData Analst in SQL | DataCamp
          \nMachine Learning by Andrew Ng. | Stanford University**""")
