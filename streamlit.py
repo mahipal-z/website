@@ -60,9 +60,9 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
 st.divider()
 
 st.subheader("Certification")
-st.image([image3,image4,image5])
+st.image([image3,image4,image5], width=100)
 
-st.image([image6,image7,image8,image9])
+st.image([image6,image7,image8,image9], width=50)
 
 
 st.divider()
