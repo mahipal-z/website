@@ -8,7 +8,7 @@ image1 = Image.open('Photo Web.jpg')
 image2 = Image.open('profile.jpg')
 
 image3 = Image.open('data_scientist_professional_badge.png')
-image4 = Image.open('hands-on-essentials-data-engineering.png')
+image4 = Image.open('hands-on-essentials-data-engineering (1)-fotor.png')
 image5 = Image.open('hands-on-essentials-data-warehouse.png')
 image6 = Image.open('aws-certified-database-specialty.png')
 image7 = Image.open('aws-certified-data-analytics-specialty.png')
