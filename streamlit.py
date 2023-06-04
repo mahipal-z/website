@@ -65,9 +65,9 @@ st.image([image3,image4,image5], width=150)
 
 st.image([image6,image7,image8,image9], width=150)
 
-components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""",
+components.html(["""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>""",
                 """<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d4dfcc9b-873f-4e97-b824-96f1c118b381" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""
-                ,height=250)
+                ],height=250)
 st.divider()
 st.subheader("Education")
 
