@@ -19,7 +19,7 @@ st.set_page_config(
 st.title("About Me")
 
 st.markdown(
-  """Everyday engineer who possess strong interest in everything data, 	:bar_chart: cloud, :cloud: and emerging technologies. :robot_face:
+  """Everyday engineer who possess strong interest in everything data :bar_chart:, cloud :cloud:, and emerging technologies :robot_face:.
   Someone who will enjoy being part of your Data/AI/ML team. """)
 
 st.markdown("""Currently invested in
@@ -48,8 +48,8 @@ with col2:
     st.markdown("""
 - You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 - Or Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
-- Or Bowling, :bowling: Lifting Weights, :weight_lifter: Card games, Board games, :game_die: or Cooking
-- Or you are willing to teach me Swimming, :swimmer: Golfing, :golfer: Pool, :8ball: or Piano :musical_keyboard:
+- Or Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
+- Or you are willing to teach me Swimming :swimmer:, Golfing :golfer:, Pool :8ball:, or Piano :musical_keyboard:
 """
 )
 
@@ -61,7 +61,7 @@ st.subheader("Certification")
 
 st.subheader("Education")
 
-St.write("""Master of Engineering, Mechanical | University of Ottawa
+st.write("""Master of Engineering, Mechanical | University of Ottawa
          \nData Scientist in Python | DataCamp
          \nData Analst in SQL | DataCamp
          \nMachine Learning by Andrew Ng. | Stanford University""")
