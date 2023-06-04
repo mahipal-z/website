@@ -61,9 +61,11 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
 st.divider()
 
 st.subheader("Certification")
-st.image([image3,image4,image5], width=[150,200,200])
+st.image([image3,image4,image5], width=200)
 
 st.image([image6,image7,image8,image9], width=170)
+
+st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/users/mahipal-zanakat) | [**DataCamp**](https://www.datacamp.com/certificate/DS0021765360075)""")
 
 #components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""
 #                ,height=250)
