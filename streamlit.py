@@ -32,20 +32,16 @@ st.markdown("""Currently invested in
 
 st.divider()
 
-col1, col2 = st.columns([1, 1])
+#col1, col2 = st.columns([1, 1])
 
-with col1:
-    st.subheader("Connect with me on")
-    st.write(
-  """[**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat)
-  \n[**GitHub**](https://github.com/mahipal-z)
-  \n[**Medium**](https://medium.com/@storiesbymahipal)
-  """
-)
+#with col1:
+st.markdown("**Connect with me on**")
+st.write("""[**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
+  """)
 
-with col2:
-    st.subheader("I could be a good company if")
-    st.markdown("""
+#with col2:
+st.subheader("I could be a good company if")
+st.markdown("""
 - You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 - Or Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
 - Or Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
@@ -61,10 +57,10 @@ st.subheader("Certification")
 
 st.subheader("Education")
 
-st.write("""Master of Engineering, Mechanical | University of Ottawa
+st.write("""**Master of Engineering, Mechanical | University of Ottawa
          \nData Scientist in Python | DataCamp
          \nData Analst in SQL | DataCamp
-         \nMachine Learning by Andrew Ng. | Stanford University""")
+         \nMachine Learning by Andrew Ng. | Stanford University**""")
 
 
 ######################
