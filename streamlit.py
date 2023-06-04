@@ -6,6 +6,14 @@ from PIL import Image
 image1 = Image.open('Photo Web.jpg')
 image2 = Image.open('profile.jpg')
 
+image3 = Image.open('data_scientist_professional_badge.png')
+image4 = Image.open('hands-on-essentials-data-engineering.png')
+image5 = Image.open('hands-on-essentials-data-warehouse.png')
+image6 = Image.open('aws-certified-database-specialty.png')
+image7 = Image.open('aws-certified-data-analytics-specialty.png')
+image8 = Image.open('aws-certified-developer-associate.png')
+image9 = Image.open('aws-certified-machine-learning-specialty.png')
+
 st.set_page_config( 
     page_title="Mahipal Zanakat",
     page_icon=image2 
@@ -52,6 +60,9 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
 st.divider()
 
 st.subheader("Certification")
+st.image([image3,image4,image5])
+
+st.image([image6,image7,image8,image9])
 
 
 st.divider()
