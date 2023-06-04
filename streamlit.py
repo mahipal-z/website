@@ -29,15 +29,14 @@ st.markdown("""Currently invested in
 - Developing and deploying ML models
      """
 )
-
+st.markdown("""**Connect with me on** [**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
+  """)
 st.divider()
 
 #col1, col2 = st.columns([1, 1])
 
 #with col1:
-st.markdown("**Connect with me on**")
-st.write("""[**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
-  """)
+
 
 #with col2:
 st.subheader("I could be a good company if")
