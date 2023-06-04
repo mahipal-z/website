@@ -54,13 +54,13 @@ st.divider()
 st.subheader("Certification")
 
 
-
+st.divider()
 st.subheader("Education")
 
-st.markdown("""**Master of Engineering, Mechanical | University of Ottawa
-         \nData Scientist in Python | DataCamp
-         \nData Analst in SQL | DataCamp
-         \nMachine Learning by Andrew Ng. | Stanford University**""")
+st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
+         \n**Data Scientist in Python | DataCamp**
+         \n**Data Analst in SQL | DataCamp**
+         \n**Machine Learning by Andrew Ng. | Stanford University**""")
 
 
 ######################
