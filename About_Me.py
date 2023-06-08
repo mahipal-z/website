@@ -73,7 +73,7 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
          \n**Data Analyst in SQL | DataCamp**
          \n**Machine Learning by Andrew Ng. | Stanford University**""")
 
-with clo2:
+with col2:
     st.title("**Mahipal Zanakat**")
     st.image(image1)
 ######################
