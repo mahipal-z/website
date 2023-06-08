@@ -25,32 +25,28 @@ st.set_page_config(
 #main page layout
 ######################
 
-st.title("About Me")
+col1, col2 = st.columns([0.7, 0.3])
 
-st.markdown(
+with col1:
+    st.title("About Me")
+    st.markdown(
   """Everyday engineer who possess strong interest in everything data :bar_chart:, cloud :cloud:, and emerging technologies :robot_face:.
   Someone who will enjoy being part of your Data/AI/ML team. """)
 
-st.markdown("""Currently invested in
-- Designing and integrating ETL/ELT pipelines
-- Collecting and cleaning data 
-- Finding insights and building dashboards
-- Developing and deploying ML models
-     """
-)
-st.markdown("""\n""")
-st.markdown("""**Connect with me on** [**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
+    st.markdown("""Currently invested in
+    - Designing and integrating ETL/ELT pipelines
+    - Collecting and cleaning data 
+    - Finding insights and building dashboards
+    - Developing and deploying ML models
+     """)
+    st.markdown("""\n""")
+    st.markdown("""**Connect with me on** [**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
   """)
-st.divider()
-
-#col1, col2 = st.columns([1, 1])
-
-#with col1:
+    st.divider()
 
 
-#with col2:
-st.subheader("I could be a good company if")
-st.markdown("""
+    st.subheader("I could be a good company if")
+    st.markdown("""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 \nor Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
 \nor Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
@@ -58,33 +54,32 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
 """
 )
 
-st.divider()
+    st.divider()
 
-st.subheader("Certification")
-st.image([image3,image4,image5], width=200)
+    st.subheader("Certification")
+    st.image([image3,image4,image5], width=200)
 
-st.image([image6,image7,image8,image9], width=170)
+    st.image([image6,image7,image8,image9], width=170)
 
-st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/users/mahipal-zanakat) | [**DataCamp**](https://www.datacamp.com/certificate/DS0021765360075)""")
+    st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/users/mahipal-zanakat) | [**DataCamp**](https://www.datacamp.com/certificate/DS0021765360075)""")
 
 #components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""
 #                ,height=250)
-st.divider()
-st.subheader("Education")
+    st.divider()
+    st.subheader("Education")
 
-st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
+    st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
          \n**Data Scientist in Python | DataCamp**
          \n**Data Analyst in SQL | DataCamp**
          \n**Machine Learning by Andrew Ng. | Stanford University**""")
 
-
+with clo2:
+    st.title("**Mahipal Zanakat**")
+    st.image(image1)
 ######################
 #sidebar layout
 ######################
 
-st.sidebar.title("**Mahipal Zanakat**")
-st.sidebar.image(image1)
-            
 st.sidebar.subheader("Portfolio")
 
             
