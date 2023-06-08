@@ -55,7 +55,7 @@ with col1:
     
 with col2:
     st.markdown('<p class="big-font">Mahipal Zanakat</p>', unsafe_allow_html=True)
-    st.image(image1, width=250)
+    st.image(image1, width=200)
 
 st.divider()
 
