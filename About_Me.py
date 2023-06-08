@@ -44,7 +44,7 @@ with col1:
   """)
     
 with col2:
-    st.subheader("**Mahipal Zanakat**")
+    st.write("**Mahipal Zanakat**")
     st.image(image1)
 
 st.divider()
