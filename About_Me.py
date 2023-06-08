@@ -23,7 +23,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 .big-font {
-    font-size:50px !important;
+    font-size:25px !important;
 }
 </style>
 """, unsafe_allow_html=True)
