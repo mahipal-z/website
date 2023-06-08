@@ -20,6 +20,16 @@ st.set_page_config(
     page_icon=image2 
 )
 
+st.markdown("""
+<style>
+.big-font {
+    font-size:50px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
 
 ######################
 #main page layout
@@ -44,7 +54,7 @@ with col1:
   """)
     
 with col2:
-    st.write("**Mahipal Zanakat**")
+    st.markdown('<p class="big-font">Mahipal Zanakat</p>', unsafe_allow_html=True)
     st.image(image1)
 
 st.divider()
