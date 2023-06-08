@@ -25,7 +25,7 @@ st.set_page_config(
 #main page layout
 ######################
 
-col1, col2 = st.columns([0.7, 0.3], gap="large")
+col1, col2 = st.columns([0.9, 0.1], gap="large")
 
 with col1:
     st.title("About Me")
