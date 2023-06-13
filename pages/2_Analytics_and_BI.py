@@ -21,12 +21,14 @@ with st.expander(':blue[**1. Exploratory data analysis of the top 400 video game
 **:green[Problem Description:]** The objective was to do a market research analysis of video games sector by identifying release years that users and critics liked best and exploring the business side of gaming by looking at game sales data.
 \n**:green[Problem Type:]** Exploratory Data Analysis (EDA)
 \n**:green[Solution:]** Compared the sales dataset with the critic and user reviews to determine whether video games have improved as the gaming market has grown. Found answers to several business questions using joins, set theory, grouping, filtering, and ordering techniques.
-\n**:green[Impact:]** The findings from this analysis provides insights to developer team that helps them finalize the Game Design Document during the pre-production stage.
-\n**:green[Tools & Technology:]** Relational databases, PostgreSQL
-\n[**:blue[Click here to see analysis]**](https://github.com/mahipal-z/Videogames-EDA/blob/main/notebook.ipynb)
 ''')
     with col2:
         st.image(image1)
+    st.markdown('''
+**:green[Impact:]** The findings from this analysis provides insights to the developer team that helps them finalize the Game Design Document during the pre-production stage.
+\n**:green[Tools & Technology:]** Relational databases, PostgreSQL
+\n[**:blue[Click here to see analysis]**](https://github.com/mahipal-z/Videogames-EDA/blob/main/notebook.ipynb)
+''')
 
 with st.expander(':blue[**2. Identifying key factors influencing heart disease using PowerBI**]', expanded=True):
     col1, col2 = st.columns(2)
@@ -35,12 +37,14 @@ with st.expander(':blue[**2. Identifying key factors influencing heart disease u
 **:green[Problem Description:]** Project’s goal was to build an interactive dashboard from the dataset of patients with heart disease and investigate what factors impact the most in the diagnosis of heart disease.
 \n**:green[Problem Type:]** Dashboard and Reporting
 \n**:green[Solution:]** Developed a live visual report which displays the relationship between the likelihood of having a heart disease with factors such as age, gender, lifestyle, etc. using slicers, bar plots, and filters by integrating a Kaggle dataset into Microsoft PowerBI.
-\n**:green[Impact:]** The dashboard provides a quick overview of findings from the data set and the accessibility to dig deeper into each section of the analysis.
+''')
+    with col2:
+        st.image(image2)
+    st.markdown('''
+**:green[Impact:]** The dashboard provides a quick overview of findings from the data set and the accessibility to dig deeper into each section of the analysis.
 \n**:green[Tools & Technology:]** PowerBI, Relational Databases
 \n[**:blue[Click here for PowerBI Dashboard]**](https://www.youtube.com/watch?v=sMiuQQ0Qyz0&ab_channel=MahipalZanakat)
 ''')
-    with col2:
-        st.image(image1)
 
 with st.expander(':blue[**3. Retail store KPI Dashboard**]', expanded=True):
     col1, col2 = st.columns(2)
@@ -49,12 +53,14 @@ with st.expander(':blue[**3. Retail store KPI Dashboard**]', expanded=True):
 **:green[Problem Description:]** The goal was to analyze the dataset containing information related to Sales, Profits, and other interesting facts about a superstore giant and publish a dashboard.
 \n**:green[Problem Type:]** Dashboard and Reporting
 \n**:green[Solution:]** Validated the dataset, integrated with Tableau, analyzed data in worksheets, and summarised using an overview dashboard.
-\n**:green[Impact:]** The report provides a sneak peek of sales and profit numbers in different regions of the United States with a filtering ability to categorize and group data.
+''')
+    with col2:
+        st.image(image3)
+    st.markdown('''
+**:green[Impact:]** The report provides a sneak peek of sales and profit numbers in different regions of the United States with a filtering ability to categorize and group data.
 \n**:green[Tools & Technology:]** Tableau, Data Engineering, Data Analysis
 \n[**:blue[Click here for KPI Dashboard]**](https://public.tableau.com/app/profile/mahipal.zanakat/viz/RetailStoreKPIDashboard/RetailStoreKPIDashboard)
 ''')
-    with col2:
-        st.image(image1)
 
 with st.expander(':blue[**4. Comprehensive analysis of the android app market by comparing over 10,000 apps in Play Store**]', expanded=True):
     col1, col2 = st.columns(2)
@@ -63,12 +69,14 @@ with st.expander(':blue[**4. Comprehensive analysis of the android app market by
 **:green[Problem Description:]** The objective was to look for insights in the data to devise strategies to drive growth and retention.
 \n**:green[Problem Type:]** Data Analysis and Visualization, Sentiment Analysis
 \n**:green[Solution:]** I did the exploratory data analysis to answer important business questions on app categories, size, and pricing on Google Play Store. Cleaned and merged tables to explore the user ratings and plotted sentiment polarity score.
-\n**:green[Impact:]** The findings from this analysis can help decide what type of apps to develop, how much it should be priced and identify what makes users happy.
+''')
+    with col2:
+        st.image(image4)
+    st.markdown('''
+**:green[Impact:]** The findings from this analysis can help decide what type of apps to develop, how much it should be priced and identify what makes users happy.
 \n**:green[Tools & Technology:]** Relational databases, Python, Pandas, Plotly
 \n[**:blue[Click here to see analysis]**](https://github.com/mahipal-z/playstore-apps-eda/blob/main/Android%20App%20Market%20EDA.ipynb)
 ''')
-    with col2:
-        st.image(image1)
 
 
 with st.expander(':blue[**5. Simulation of Airport Check-in System**]', expanded=True):
