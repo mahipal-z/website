@@ -44,10 +44,10 @@ with col1:
   Someone who will enjoy being part of your Data/AI/ML team. """)
 
     st.markdown("""Currently invested in
-    - Designing and integrating ETL/ELT pipelines
-    - Collecting and cleaning data 
-    - Finding insights and building dashboards
-    - Developing and deploying ML models
+    \n- Designing and integrating ETL/ELT pipelines
+    \n- Collecting and cleaning data 
+    \n- Finding insights and building dashboards
+    \n- Developing and deploying ML models
      """)
     st.markdown("""\n""")
     st.markdown("""**Connect with me on** [**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
