@@ -1,12 +1,13 @@
 import streamlit as st
 st.set_page_config(layout="wide")
 st.header("Data Analysis and Business Intelligence")
+st.write("Listed below are the data analytics projects I have worked on.")
 
 st.divider()
 
 #expander = st.expander(expanded=True)
 
-with st.expander(':blue[1. Exploratory data analysis of the top 400 video games]', expanded=True):
+with st.expander(':blue[**1. Exploratory data analysis of the top 400 video games**]', expanded=True):
     st.markdown('''
 **:green[Problem Description:]** The objective was to do a market research analysis of video games sector by identifying release years that users and critics liked best and exploring the business side of gaming by looking at game sales data.
 \n**:green[Problem Type:]** Exploratory Data Analysis (EDA)
