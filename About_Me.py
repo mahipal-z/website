@@ -7,13 +7,13 @@ import streamlit.components.v1 as components
 image1 = Image.open('images/Photo Web.jpg')
 image2 = Image.open('images/profile.jpg')
 
-image3 = Image.open('data_scientist_professional_badge.png')
-image4 = Image.open('snowflakeDE1.png')
-image5 = Image.open('snowflakeDW2.png')
-image6 = Image.open('aws-certified-database-specialty.png')
-image7 = Image.open('aws-certified-data-analytics-specialty.png')
-image8 = Image.open('aws-certified-developer-associate.png')
-image9 = Image.open('aws-certified-machine-learning-specialty.png')
+image3 = Image.open('images/data_scientist_professional_badge.png')
+image4 = Image.open('images/snowflakeDE1.png')
+image5 = Image.open('images/snowflakeDW2.png')
+image6 = Image.open('images/aws-certified-database-specialty.png')
+image7 = Image.open('images/aws-certified-data-analytics-specialty.png')
+image8 = Image.open('images/aws-certified-developer-associate.png')
+image9 = Image.open('images/aws-certified-machine-learning-specialty.png')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
