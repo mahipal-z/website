@@ -5,8 +5,7 @@ st.header("Data Analysis and Business Intelligence")
 st.divider()
 
 def mz_expander(key):
-  object = st.expander(key, expanded=True)
-  return object
+  return st.expander(key, expanded=True)
 
 with mz_expander(':blue[1. Exploratory data analysis of the top 400 video games]'):
   st.markdown('''
