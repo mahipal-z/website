@@ -4,8 +4,8 @@ import streamlit as st
 from PIL import Image
 import streamlit.components.v1 as components
 
-image1 = Image.open('Photo Web.jpg')
-image2 = Image.open('profile.jpg')
+image1 = Image.open('images/Photo Web.jpg')
+image2 = Image.open('images/profile.jpg')
 
 image3 = Image.open('data_scientist_professional_badge.png')
 image4 = Image.open('snowflakeDE1.png')
