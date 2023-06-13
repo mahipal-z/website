@@ -35,7 +35,7 @@ with st.expander(':blue[**2. Identifying key factors influencing heart disease u
 \n[**:blue[Click here for PowerBI Dashboard]**](https://www.youtube.com/watch?v=sMiuQQ0Qyz0&ab_channel=MahipalZanakat)
 ''')
     with col2:
-        #st.image(image)
+        st.image(image1)
 
 with st.expander(':blue[**3. Retail store KPI Dashboard**]', expanded=True):
     col1, col2 = st.columns(2)
@@ -49,7 +49,7 @@ with st.expander(':blue[**3. Retail store KPI Dashboard**]', expanded=True):
 \n[**:blue[Click here for KPI Dashboard]**](https://public.tableau.com/app/profile/mahipal.zanakat/viz/RetailStoreKPIDashboard/RetailStoreKPIDashboard)
 ''')
     with col2:
-        #st.image(image)
+        st.image(image1)
 
 with st.expander(':blue[**4. Comprehensive analysis of the android app market by comparing over 10,000 apps in Play Store**]', expanded=True):
     col1, col2 = st.columns(2)
@@ -63,7 +63,7 @@ with st.expander(':blue[**4. Comprehensive analysis of the android app market by
 \n[**:blue[Click here to see analysis]**](https://github.com/mahipal-z/playstore-apps-eda/blob/main/Android%20App%20Market%20EDA.ipynb)
 ''')
     with col2:
-        #st.image(image)
+        st.image(image1)
 
 
 with st.expander(':blue[**5. Simulation of Airport Check-in System**]', expanded=True):
@@ -77,7 +77,7 @@ with st.expander(':blue[**5. Simulation of Airport Check-in System**]', expanded
 \n**:green[Tools & Technology:]** Witness Horizon, Witness Action Language
 ''')
     with col2:
-        #st.image(image)
+        st.image(image1)
 
 
 
