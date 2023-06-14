@@ -15,7 +15,7 @@ st.divider()
 #expander = st.expander(expanded=True)
 
 with st.expander(':blue[**1. Exploratory data analysis of the top 400 video games**]', expanded=True):
-    col1, col2 = st.columns(2, gap = "large")
+    col1, padding, col2 = st.columns((10,2,10))
     with col1:
         st.markdown('''
 **:green[Problem Description:]** The objective was to do a market research analysis of video games sector by identifying release years that users and critics liked best and exploring the business side of gaming by looking at game sales data.
