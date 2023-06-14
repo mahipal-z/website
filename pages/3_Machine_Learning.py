@@ -21,12 +21,12 @@ with st.expander(':blue[**1. Blood Donation Prediction**]', expanded=True):
 **:green[Problem Description:]** The dataset owners are interested in predicting if past blood donors will donate again during the next collection date as part of an effort to forecast blood supply to mitigate potential supply shortages.
 \n**:green[Problem Type:]** Supervised Learning, Binary Classification
 \n**:green[Solution:]** By performing in-depth data cleaning and training and testing several classifiers, including Logistic Regression and K-Nearest Neighbors with Repeated Stratified K-Fold cross-validation, I produced a model that outperforms the ZeroR baseline accuracy by 5.3%.
+\n**:green[Impact:]** This model offers the Blood Transfusion Service Center in Hsin-Chu City in Taiwan a more realistic estimate of the number of donors to expect, allowing them to derive a more accurate forecasting of future blood supply and take appropriate action to address potential shortages.
 ''')
     with col2:
         st.image(image1)
     st.markdown('''
-**:green[Impact:]** This model offers the Blood Transfusion Service Center in Hsin-Chu City in Taiwan a more realistic estimate of the number of donors to expect, allowing them to derive a more accurate forecasting of future blood supply and take appropriate action to address potential shortages.
-\n**:green[Tools & Technology:]** Python, Scikit-Learn, Jupyter Notebook
+**:green[Tools & Technology:]** Python, Scikit-Learn, Jupyter Notebook
 \n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Blood-donation-project/blob/main/BloodTransfusion.ipynb)
 ''')
 
@@ -41,7 +41,7 @@ with st.expander(':blue[**2. Rating Prediction for a Recipe Website**]', expande
     with col2:
         st.image(image2)
     st.markdown('''
-**:green[Impact:]**The model can help strategize future content publication, forecast user ratings, and increase website traffic.
+**:green[Impact:]** The model can help strategize future content publication, forecast user ratings, and increase website traffic.
 \n**:green[Tools & Technology:]** Jupyter Notebooks, Pandas, nltk library, Scikit-learn
 \n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Recipe-Rating-Prediction/blob/main/notebook.ipynb)
 ''')
@@ -53,12 +53,12 @@ with st.expander(':blue[**3. Predicting Credit Card Approvals**]', expanded=True
 **:green[Problem Description:]** The project's objective was to reduce the time and cost of the credit card application screening process. This cost reduction will allow banking clients to offer online financial advising services for free to new customers opting for an upgraded credit card account.
 \n**:green[Problem Type:]** Binary Classification, Financial Analysis, Risk Analysis
 \n**:green[Solution:]** After one-hot encoding, and mean imputation on the dataset, I developed a Logistic Regression model achieving the target classification accuracy using MinMaxScaler and Grid Search cross validation and Found insights that can help provide financial advice to customers for building high credit score.
+\n**:green[Impact:]** The model automates the initial screening process of credit card applications, saving banks time and resources.
 ''')
     with col2:
         st.image(image3)
     st.markdown('''
-**:green[Impact:]** The model automates the initial screening process of credit card applications, saving banks time and resources.
-\n**:green[Tools & Technology:]** Jupyter Notebooks, Pandas, Numpy, Scikit-learn
+**:green[Tools & Technology:]** Jupyter Notebooks, Pandas, Numpy, Scikit-learn
 \n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Credit-card-approval-prediction/blob/main/notebook.ipynb)
 ''')
 
