@@ -15,7 +15,7 @@ st.divider()
 #expander = st.expander(expanded=True)
 
 with st.expander(':blue[**1. Exploratory data analysis of the top 400 video games**]', expanded=True):
-    col1, padding, col2 = st.columns((10,2,10))
+    col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
 **:green[Problem Description:]** The objective was to do a market research analysis of video games sector by identifying release years that users and critics liked best and exploring the business side of gaming by looking at game sales data.
@@ -23,7 +23,7 @@ with st.expander(':blue[**1. Exploratory data analysis of the top 400 video game
 \n**:green[Solution:]** Compared the sales dataset with the critic and user reviews to determine whether video games have improved as the gaming market has grown. Found answers to several business questions using joins, set theory, grouping, filtering, and ordering techniques.
 ''')
     with col2:
-        st.image(image1, width=400)
+        st.image(image1,500)
     st.markdown('''
 **:green[Impact:]** The findings from this analysis provides insights to the developer team that helps them finalize the Game Design Document during the pre-production stage.
 \n**:green[Tools & Technology:]** Relational databases, PostgreSQL
@@ -53,13 +53,13 @@ with st.expander(':blue[**3. Retail store KPI Dashboard**]', expanded=True):
 **:green[Problem Description:]** The goal was to analyze the dataset containing information related to Sales, Profits, and other interesting facts about a superstore giant and publish a dashboard.
 \n**:green[Problem Type:]** Dashboard and Reporting
 \n**:green[Solution:]** Validated the dataset, integrated with Tableau, analyzed data in worksheets, and summarised using an overview dashboard.
+\n**:green[Impact:]** The report provides a sneak peek of sales and profit numbers in different regions of the United States with a filtering ability to categorize and group data.
+\n**:green[Tools & Technology:]** Tableau, Data Engineering, Data Analysis
 ''')
     with col2:
         st.image(image3)
     st.markdown('''
-**:green[Impact:]** The report provides a sneak peek of sales and profit numbers in different regions of the United States with a filtering ability to categorize and group data.
-\n**:green[Tools & Technology:]** Tableau, Data Engineering, Data Analysis
-\n[**:blue[Click here for KPI Dashboard]**](https://public.tableau.com/app/profile/mahipal.zanakat/viz/RetailStoreKPIDashboard/RetailStoreKPIDashboard)
+[**:blue[Click here for KPI Dashboard]**](https://public.tableau.com/app/profile/mahipal.zanakat/viz/RetailStoreKPIDashboard/RetailStoreKPIDashboard)
 ''')
 
 with st.expander(':blue[**4. Comprehensive analysis of the android app market by comparing over 10,000 apps in Play Store**]', expanded=True):
@@ -69,13 +69,13 @@ with st.expander(':blue[**4. Comprehensive analysis of the android app market by
 **:green[Problem Description:]** The objective was to look for insights in the data to devise strategies to drive growth and retention.
 \n**:green[Problem Type:]** Data Analysis and Visualization, Sentiment Analysis
 \n**:green[Solution:]** I did the exploratory data analysis to answer important business questions on app categories, size, and pricing on Google Play Store. Cleaned and merged tables to explore the user ratings and plotted sentiment polarity score.
+\n**:green[Impact:]** The findings from this analysis can help decide what type of apps to develop, how much it should be priced and identify what makes users happy.
+\n**:green[Tools & Technology:]** Relational databases, Python, Pandas, Plotly
 ''')
     with col2:
         st.image(image4)
     st.markdown('''
-**:green[Impact:]** The findings from this analysis can help decide what type of apps to develop, how much it should be priced and identify what makes users happy.
-\n**:green[Tools & Technology:]** Relational databases, Python, Pandas, Plotly
-\n[**:blue[Click here to see analysis]**](https://github.com/mahipal-z/playstore-apps-eda/blob/main/Android%20App%20Market%20EDA.ipynb)
+[**:blue[Click here to see analysis]**](https://github.com/mahipal-z/playstore-apps-eda/blob/main/Android%20App%20Market%20EDA.ipynb)
 ''')
 
 
