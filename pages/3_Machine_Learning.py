@@ -39,7 +39,7 @@ with st.expander(':blue[**2. Rating Prediction for a Recipe Website**]', expande
 \n**:green[Solution:]** Using NLP techniques to extract features from recipes' text, dimensionality reduction to distil the features, oversampling to balance the dataset, and hyperparameter tuning to identify the best hyperparameters, I developed an XGBoost classification model with an 18% higher recall value than the client's expectations. Based on this model, I identified and provided the client with recommendations to increase website traffic.
     with col2:
         st.image(image2)
-    st.markdown('''**:green[Impact:]** The model can help strategize future content publication, forecast user ratings, and increase website traffic.
+    st.markdown('''**:green[Impact:]**The model can help strategize future content publication, forecast user ratings, and increase website traffic.
 \n**:green[Tools & Technology:]** Jupyter Notebooks, Pandas, nltk library, Scikit-learn
 \n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Recipe-Rating-Prediction/blob/main/notebook.ipynb)
 ''')
