@@ -23,7 +23,7 @@ with st.expander(':blue[**1. Exploratory data analysis of the top 400 video game
 \n**:green[Solution:]** Compared the sales dataset with the critic and user reviews to determine whether video games have improved as the gaming market has grown. Found answers to several business questions using joins, set theory, grouping, filtering, and ordering techniques.
 ''')
     with col2:
-        st.image(image1, width=200)
+        st.image(image1, width=400)
     st.markdown('''
 **:green[Impact:]** The findings from this analysis provides insights to the developer team that helps them finalize the Game Design Document during the pre-production stage.
 \n**:green[Tools & Technology:]** Relational databases, PostgreSQL
