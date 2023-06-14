@@ -4,7 +4,6 @@ image1 = Image.open('images/blood.PNG')
 image2 = Image.open('images/recipe.PNG')
 image3 = Image.open('images/credit.PNG')
 #image4 = Image.open('images/playstore.PNG')
-#image5 = Image.open('images/')
 
 st.set_page_config(layout="wide")
 st.header("Machine Learning")
