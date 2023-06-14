@@ -53,12 +53,12 @@ with st.expander(':blue[**3. Predicting Credit Card Approvals**]', expanded=True
 \n**:green[Problem Type:]** Binary Classification, Financial Analysis, Risk Analysis
 \n**:green[Solution:]** After one-hot encoding, and mean imputation on the dataset, I developed a Logistic Regression model achieving the target classification accuracy using MinMaxScaler and Grid Search cross validation and Found insights that can help provide financial advice to customers for building high credit score.
 \n**:green[Impact:]** The model automates the initial screening process of credit card applications, saving banks time and resources.
+\n**:green[Tools & Technology:]** Jupyter Notebooks, Pandas, Numpy, Scikit-learn
 ''')
     with col2:
         st.image(image3)
     st.markdown('''
-**:green[Tools & Technology:]** Jupyter Notebooks, Pandas, Numpy, Scikit-learn
-\n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Credit-card-approval-prediction/blob/main/notebook.ipynb)
+[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Credit-card-approval-prediction/blob/main/notebook.ipynb)
 ''')
 
 with st.expander(':blue[**4. Performance prediction of Laboratory equipment**]', expanded=True):
