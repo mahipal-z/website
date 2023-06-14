@@ -84,7 +84,7 @@ with st.expander(':blue[**5. Simulation of Airport Check-in System**]', expanded
 **:green[Problem Description:]** The goal was to measure the effect of various factors on the real-time performance of an airport’s check-in operations. Additionally, management wanted to have a strategy that can minimize the cost of the operations without hurting the customer satisfaction score.
 \n**:green[Problem Type:]** Data Visualization, System Engineering, Operation Research
 \n**:green[Solution:]** Using data collected for a week, I built and executed a model in a simulation software that can report a real-time percentage of passengers satisfied/dissatisfied by using the airport check-in service. Also, provided an experimenter tool that provides resource allocation solution that improved customer service with minimum cost.
-\n**:green[Impact:]** For the given business case, the model saved $190,000 in opportunity cost and $255,000 in operations cost.
+\n**:green[Impact:]** For the given business case, the model can save CAD 190,000 in opportunity cost and CAD 255,000 in operations cost.
 \n**:green[Tools & Technology:]** Witness Horizon, Witness Action Language
 ''')
 
