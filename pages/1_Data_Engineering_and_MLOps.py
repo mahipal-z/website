@@ -20,13 +20,12 @@ with st.expander(':blue[**1. Implementation of data lake design using AWS CloudF
 **:green[Problem Description:]** The aim was to create the data lake architecture, where the raw data is copied over to an S3 bucket from a source bucket by a lambda function, combined by an AWS Glue job, and finally transformed by another AWS Glue job to parquet format and stored in the final S3 bucket.
 \n**:green[Problem Type:]** Extract, Transform and Load, Pipeline Automation
 \n**:green[Solution:]** Developed an AWS CloudFormation template, Lambda code, and Glue job scripts. Deployed the Stack on the cloud and configured the ETL pipeline using S3 Event notification.
-\n**:
 ''')
     with col2:
         st.image(image1)
     st.markdown('''
 **:green[Tools & Technology:]** AWS, CloudFormation, S3, Lambda, Glue, Python, Apache Spark, Infrastructure as Code
-\n:blue[Click here for Blog Post]**](https://medium.com/data-dynamics-and-cloud-navigation/data-lake-for-dummies-7f593a83f249)
+\n[**:blue[Click here for Blog Post]**](https://medium.com/data-dynamics-and-cloud-navigation/data-lake-for-dummies-7f593a83f249)
 ''')
 
 with st.expander(':blue[**2. •	Accelerating vaccine development using AI Engineering**]', expanded=True):
@@ -42,5 +41,5 @@ with st.expander(':blue[**2. •	Accelerating vaccine development using AI Engin
         st.image(image1)
     st.markdown('''
 **:green[Tools & Technology:]** Selenium, Web Scrapping, API integration, Machine learning, Streamlit
-\n:blue[Click here for certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
+\n[**:blue[Click here for certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
 ''')
