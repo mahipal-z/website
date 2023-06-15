@@ -49,7 +49,7 @@ with st.expander(':blue[**3. •	Accelerating vaccine development using AI Engin
         st.markdown('''
 **:green[Problem Description:]** To develop a vaccine for a deadly disease caused by the John-Cunningham virus, prediction of the best protein candidates was needed, resulting in a ranking system for the antigens. The client needed an analysis tool to compare and rank antigens, collect relevant data sets, and ensure the validity and accuracy of the AI model.
 \n**:green[Problem Type:]** Extract, Transform and Load, Data Collection, MLOps
-\n**:green[Solution:]** Automated the ETL pipeline to gather data from various Bioinformatics tools and provide a clean dataset, developed a ranking mechanism for protein candidates and deployed the analytics application in the end.
+\n**:green[Solution:]** Automated the ETL pipeline to gather data from various bioinformatics tools and provided a clean dataset. Developed a ranking mechanism for protein candidates and deployed the analytics application in the end.
 ''')
     with col2:
         st.image(image3)
