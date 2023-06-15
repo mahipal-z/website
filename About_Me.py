@@ -80,21 +80,21 @@ st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/us
 #components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""
 #                ,height=250)
 st.divider()
-st.subheader("Education")
+st.subheader("Alma Mater")
 col3, col4, col5 = st.columns(3)
 
 with col3:
     st.image(image10, width=150)
-    st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**""")
+    st.markdown("""**Master of Engineering, Mechanical**""")
         
 with col4:
-    st.image(image11, width=150)
-    st.markdown("""**Data Scientist in Python | DataCamp**""")
-    st.markdown("""**Data Analyst in SQL | DataCamp**""")
+    st.image(image12, width=150)
+    st.markdown("""**Data Scientist in Python**""")
+    st.markdown("""**Data Analyst in SQL**""")
 
 with col5:
-    st.image(image12, width=150)
-    st.markdown("""**Machine Learning by Andrew Ng. | Stanford University**""")
+    st.image(image11, width=150)
+    st.markdown("""**Machine Learning by Andrew Ng.**""")
     
 ######################
 #sidebar layout
