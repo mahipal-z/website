@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 image1 = Image.open('images/datalake.PNG')
-image2 = Image.open('images/farm_params.jpg')
+#image2 = Image.open('images/farm_params.jpg')
 image3 = Image.open('images/belyntic.PNG')
-#image4 = Image.open('images/playstore.PNG')
+image4 = Image.open('images/optimized-web-app.gif')
 
 st.set_page_config(layout="wide")
 st.header("Data Engineering and MLOps")
@@ -37,7 +37,7 @@ with st.expander(':blue[**2. Farm Yield Analytics**]', expanded=True):
 \n**:green[Solution:]** Leveraged the dataset to build a Machine Learning application that generates plots to optimize farming parameters, predicts yield for the set farming conditions and provide model explanation.
 ''')
     with col2:
-        st.image(image2)
+        st.image(image4)
     st.markdown('''
 **:green[Tools & Technology:]** Python, Pandas, Scikit-learn, Streamlit
 \n[**:blue[Click here to see Web Application]**](https://mahipal-z-farm-yield-analytics-streamlit-l00xze.streamlit.app/)
