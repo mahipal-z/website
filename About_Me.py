@@ -42,10 +42,10 @@ with col1:
   Someone who will enjoy being part of your Data/AI/ML team. """)
 
     st.markdown("""Currently invested in
-    \n *Designing and integrating ETL/ELT pipelines
-    \n *Collecting and cleaning data 
-    \n *Finding insights and building dashboards
-    \n *Developing and deploying ML models
+    \n- Designing and integrating ETL/ELT pipelines
+    \n- Collecting and cleaning data 
+    \n- Finding insights and building dashboards
+    \n- Developing and deploying ML models
      """)
     st.markdown("""\n""")
     st.markdown("""**Connect with me on** [**LinkedIn**](https://www.linkedin.com/in/mahipalzanakat) | [**GitHub**](https://github.com/mahipal-z) | [**Medium**](https://medium.com/@storiesbymahipal)
@@ -58,25 +58,14 @@ with col2:
 st.divider()
 
 
-#st.subheader("I could be a good company if")
-st.markdown(
-    """
-<style>
-.streamlit-expanderHeader {
-    font-size: x-large;
-}
-</style>
-""",
-    unsafe_allow_html=True,
-)
-with st.expander("I could be a good company if",expanded=True):
-    st.markdown("""
+st.subheader("I could be a good company if")
+with st.expander(""""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 \nor Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
 \nor Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
 \nor you are willing to teach me Swimming :swimmer:, Golfing :golfer:, Pool :8ball:, or Piano :musical_keyboard:
-"""
-)
+"""",expanded=True):
+#    st.markdown()
 
 st.divider()
 
