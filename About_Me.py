@@ -18,13 +18,13 @@ st.set_page_config(
     page_icon=image2 
 )
 
-#st.markdown("""
-#<style>
-#.big-font {
-#    font-size:25px !important;
-#}
-#</style>
-#""", unsafe_allow_html=True)
+st.markdown("""
+<style>
+.big-font {
+    font-size:25px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 
@@ -58,8 +58,9 @@ with col2:
 st.divider()
 
 
-st.subheader("I could be a good company if")
-expander.markdown("""
+#st.subheader('I could be a good company if')
+st.expander('<p class="big-font">I could be a good company if</p>',expanded=True):
+    st.markdown("""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 \nor Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
 \nor Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
