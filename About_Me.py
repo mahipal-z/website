@@ -81,18 +81,20 @@ st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/us
 #                ,height=250)
 st.divider()
 st.subheader("Education")
-col3, col4 = st.columns(2)
+col3, col4, col5 = st.columns(3)
 
 with col3:
-    st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
-         \n**Data Scientist in Python | DataCamp**
-         \n**Data Analyst in SQL | DataCamp**
-         \n**Machine Learning by Andrew Ng. | Stanford University**""")
-
+    st.image(image10, width=150)
+    st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**""")
+        
 with col4:
-    st.image(image10)
-    st.image(image11)
-    st.image(image12)
+    st.image(image11, width=150)
+    st.markdown("""**Data Scientist in Python | DataCamp**""")
+    st.markdown("""**Data Analyst in SQL | DataCamp**""")
+
+with col5:
+    st.image(image12, width=150)
+    st.markdown("""**Machine Learning by Andrew Ng. | Stanford University**""")
     
 ######################
 #sidebar layout
