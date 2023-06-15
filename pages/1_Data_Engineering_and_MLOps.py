@@ -6,8 +6,8 @@ image3 = Image.open('images/belyntic.PNG')
 #image4 = Image.open('images/playstore.PNG')
 
 st.set_page_config(layout="wide")
-st.header("Data Engineering")
-st.write("Listed below are the Data Engineerining projects I have worked on.")
+st.header("Data Engineering and MLOps")
+st.write("Listed below are the Data Engineerining and MLOps projects I have worked on.")
 
 st.divider()
 
@@ -50,11 +50,11 @@ with st.expander(':blue[**3. •	Accelerating vaccine development using AI Engin
 **:green[Problem Description:]** To develop a vaccine for a deadly disease caused by the John-Cunningham virus, prediction of the best protein candidates was needed, resulting in a ranking system for the antigens. The client needed an analysis tool to compare and rank antigens, collect relevant data sets, and ensure the validity and accuracy of the AI model.
 \n**:green[Problem Type:]** Extract, Transform and Load, Data Collection, MLOps
 \n**:green[Solution:]** Automated the ETL pipeline to gather data from various Bioinformatics tools and provide a clean dataset, developed a ranking mechanism for protein candidates and deployed the analytics application in the end.
-\n**:green[Impact:]** The project reduced the time required for clinical trials by months by providing the solution to identify the most promising proteins for developing the vaccine. 
 ''')
     with col2:
         st.image(image3)
     st.markdown('''
-**:green[Tools & Technology:]** Selenium, Web Scrapping, API integration, Machine learning, Streamlit
+**:green[Impact:]** The project reduced the time required for clinical trials by months by providing the solution to identify the most promising proteins for developing the vaccine.
+\n**:green[Tools & Technology:]** Selenium, Web Scrapping, API integration, Machine learning, Streamlit
 \n[**:blue[Click here for Certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
 ''')
