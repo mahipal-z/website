@@ -14,7 +14,7 @@ image8 = Image.open('images/aws-certified-developer-associate.png')
 image9 = Image.open('images/aws-certified-machine-learning-specialty.png')
 image10 = Image.open('images/uottawa.png')
 image11 = Image.open('images/stanford.png')
-image12 = Image.open('images/DataCamp-Square-300x300.png')
+image12 = Image.open('images/dc.PNG')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
