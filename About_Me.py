@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 from PIL import Image
 import streamlit.components.v1 as components
@@ -61,7 +59,16 @@ st.divider()
 
 
 #st.subheader("I could be a good company if")
-
+st.markdown(
+    """
+<style>
+.streamlit-expanderHeader {
+    font-size: x-large;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
 with st.expander("I could be a good company if",expanded=True):
     st.markdown("""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
