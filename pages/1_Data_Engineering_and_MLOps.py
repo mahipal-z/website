@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
-image1 = Image.open('images/blood.PNG')
-image2 = Image.open('images/recipe.PNG')
-image3 = Image.open('images/credit.PNG')
+image1 = Image.open('images/datalake.PNG')
+image2 = Image.open('images/farm_params.jpg')
+image3 = Image.open('images/belyntic.PNG')
 #image4 = Image.open('images/playstore.PNG')
 
 st.set_page_config(layout="wide")
@@ -37,10 +37,10 @@ with st.expander(':blue[**2. Farm Yield Analytics**]', expanded=True):
 \n**:green[Solution:]** Leveraged the dataset to build a Machine Learning application that generates plots to optimize farming parameters, predicts yield for the set farming conditions and provide model explanation.
 ''')
     with col2:
-        st.image(image1)
+        st.image(image2)
     st.markdown('''
 **:green[Tools & Technology:]** Python, Pandas, Scikit-learn, Streamlit
-\n[**:blue[Click here for Web Application]**](https://mahipal-z-farm-yield-analytics-streamlit-l00xze.streamlit.app/)
+\n[**:blue[Click here to see Web Application]**](https://mahipal-z-farm-yield-analytics-streamlit-l00xze.streamlit.app/)
 ''')
 
 with st.expander(':blue[**3. •	Accelerating vaccine development using AI Engineering**]', expanded=True):
@@ -53,7 +53,7 @@ with st.expander(':blue[**3. •	Accelerating vaccine development using AI Engin
 \n**:green[Impact:]** The project reduced the time required for clinical trials by months by providing the solution to identify the most promising proteins for developing the vaccine. 
 ''')
     with col2:
-        st.image(image1)
+        st.image(image3)
     st.markdown('''
 **:green[Tools & Technology:]** Selenium, Web Scrapping, API integration, Machine learning, Streamlit
 \n[**:blue[Click here for Certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
