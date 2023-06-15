@@ -60,9 +60,9 @@ with col2:
 st.divider()
 
 
-st.subheader("I could be a good company if")
+#st.subheader("I could be a good company if")
 
-with st.expander(expanded=True):
+with st.expander("I could be a good company if",expanded=True):
     st.markdown("""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 \nor Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
@@ -73,9 +73,9 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
 
 st.divider()
 
-st.subheader("Certification")
+#st.subheader("Certification")
 
-with st.expander(expanded=True):
+with st.expander("Certification",expanded=True):
     st.image([image3,image4,image5], width=200)
     st.image([image6,image7,image8,image9], width=170)
     st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/users/mahipal-zanakat) | [**DataCamp**](https://www.datacamp.com/certificate/DS0021765360075)""")
@@ -83,9 +83,9 @@ with st.expander(expanded=True):
 #components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""
 #                ,height=250)
 st.divider()
-st.subheader("Education")
+#st.subheader("Education")
 
-with st.expander(expanded=True):
+with st.expander("Education",expanded=True):
     st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
          \n**Data Scientist in Python | DataCamp**
          \n**Data Analyst in SQL | DataCamp**
