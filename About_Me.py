@@ -12,6 +12,9 @@ image6 = Image.open('images/aws-certified-database-specialty.png')
 image7 = Image.open('images/aws-certified-data-analytics-specialty.png')
 image8 = Image.open('images/aws-certified-developer-associate.png')
 image9 = Image.open('images/aws-certified-machine-learning-specialty.png')
+image10 = Image.open('images/uottawa.png')
+image11 = Image.open('images/stanford.png')
+image12 = Image.open('images/DataCamp-Square-300x300.png')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
@@ -78,12 +81,18 @@ st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/us
 #                ,height=250)
 st.divider()
 st.subheader("Education")
-st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
+col3, col4 = st.columns(2)
+
+with col3:
+    st.markdown("""**Master of Engineering, Mechanical | University of Ottawa**
          \n**Data Scientist in Python | DataCamp**
          \n**Data Analyst in SQL | DataCamp**
          \n**Machine Learning by Andrew Ng. | Stanford University**""")
 
-#with col2:
+with col4:
+    st.image(image10)
+    st.image(image11)
+    st.image(image12)
     
 ######################
 #sidebar layout
