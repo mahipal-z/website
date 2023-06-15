@@ -28,18 +28,33 @@ with st.expander(':blue[**1. Implementation of data lake design using AWS CloudF
 \n[**:blue[Click here for Blog Post]**](https://medium.com/data-dynamics-and-cloud-navigation/data-lake-for-dummies-7f593a83f249)
 ''')
 
-with st.expander(':blue[**2. •	Accelerating vaccine development using AI Engineering**]', expanded=True):
+with st.expander(':blue[**2. Farm Yield Analytics**]', expanded=True):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown('''
+**:green[Problem Description:]** The aim was to look through the data provided by a large farming company to make predictions and provide recommendations that help them make more money.
+\n**:green[Problem Type:]** Data Analytics, MLOps
+\n**:green[Solution:]** Leveraged the dataset to build a Machine Learning application that generates plots to optimize farming parameters, predicts yield for the set farming conditions and provide model explanation.
+''')
+    with col2:
+        st.image(image1)
+    st.markdown('''
+**:green[Tools & Technology:]** Python, Pandas, Scikit-learn, Streamlit
+\n[**:blue[Click here for Web Application]**](https://mahipal-z-farm-yield-analytics-streamlit-l00xze.streamlit.app/)
+''')
+
+with st.expander(':blue[**3. •	Accelerating vaccine development using AI Engineering**]', expanded=True):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
 **:green[Problem Description:]** To develop a vaccine for a deadly disease caused by the John-Cunningham virus, prediction of the best protein candidates was needed, resulting in a ranking system for the antigens. The client needed an analysis tool to compare and rank antigens, collect relevant data sets, and ensure the validity and accuracy of the AI model.
 \n**:green[Problem Type:]** Extract, Transform and Load, Data Collection, MLOps
 \n**:green[Solution:]** Automated the ETL pipeline to gather data from various Bioinformatics tools and provide a clean dataset, developed a ranking mechanism for protein candidates and deployed the analytics application in the end.
-\n**:green[Impact:]** The project reduced the time required in months for clinical trials by providing insights from publicly available research. 
+\n**:green[Impact:]** The project reduced the time required for clinical trials by months by providing the solution to identify the most promising proteins for developing the vaccine. 
 ''')
     with col2:
         st.image(image1)
     st.markdown('''
 **:green[Tools & Technology:]** Selenium, Web Scrapping, API integration, Machine learning, Streamlit
-\n[**:blue[Click here for certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
+\n[**:blue[Click here for Certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
 ''')
