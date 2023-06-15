@@ -8,7 +8,7 @@ image4 = Image.open('images/playstore.PNG')
 
 st.set_page_config(layout="wide")
 st.header("Data Analysis and Business Intelligence")
-st.write("Listed below are the data analytics projects I have worked on.")
+st.write("Listed below are the Data Analytics projects I have worked on.")
 
 st.divider()
 
