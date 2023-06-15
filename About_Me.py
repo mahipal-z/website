@@ -59,12 +59,12 @@ st.divider()
 
 
 st.subheader("I could be a good company if")
-with st.expander(""""
+with st.expander("""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 \nor Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
 \nor Bowling :bowling:, Lifting Weights :weight_lifter:, Card games, Board games :game_die:, or for Cooking
 \nor you are willing to teach me Swimming :swimmer:, Golfing :golfer:, Pool :8ball:, or Piano :musical_keyboard:
-"""",expanded=True):
+""",expanded=True):
 #    st.markdown()
 
 st.divider()
