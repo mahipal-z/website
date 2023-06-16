@@ -43,7 +43,7 @@ with st.expander(':blue[**2. Farm Yield Analytics**]', expanded=True):
 \n[**:blue[Click here to see Web Application]**](https://mahipal-z-farm-yield-analytics-streamlit-l00xze.streamlit.app/)
 ''')
 
-with st.expander(':blue[**3. •	Accelerating vaccine development using AI Engineering**]', expanded=True):
+with st.expander(':blue[**3. Accelerating vaccine development using AI Engineering**]', expanded=True):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
