@@ -3,7 +3,7 @@ from PIL import Image
 image1 = Image.open('images/blood.PNG')
 image2 = Image.open('images/recipe.PNG')
 image3 = Image.open('images/credit.PNG')
-#image4 = Image.open('images/playstore.PNG')
+image4 = Image.open('images/llm.gif')
 
 st.set_page_config(layout="wide")
 st.header("Machine Learning")
@@ -13,7 +13,22 @@ st.divider()
 
 #expander = st.expander(expanded=True)
 
-with st.expander(':blue[**1. Blood Donation Prediction**]', expanded=True):
+with st.expander(':blue[**1. Social Media Post Analytics**]', expanded=True):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown('''
+**:green[Problem Description:]** The goal was to leverage the power of Large Language Models for producing brief summaries and sentiments of the comment section of the Linkedin post.
+\n**:green[Problem Type:]** Deep Learning, Generative AI, MLOps
+\n**:green[Solution:]** Using BART-based model for summarization and RoBERTa-based model for sentiment analysis, built a web application that allows user to select a post to return a dashboard with sentiment plot, summary table, and word cloud.
+\n**:green[Impact:]** Once deployed, the app can help Linkedin influencers to have a quick analysis of their content.
+''')
+    with col2:
+        st.image(image4)
+    st.markdown('''
+**:green[Tools & Technology:]** Transformers, HuggingFace, Streamlit, Python, LLMs
+''')
+
+with st.expander(':blue[**2. Blood Donation Prediction**]', expanded=True):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
@@ -29,7 +44,7 @@ with st.expander(':blue[**1. Blood Donation Prediction**]', expanded=True):
 \n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Blood-donation-project/blob/main/BloodTransfusion.ipynb)
 ''')
 
-with st.expander(':blue[**2. Rating Prediction for a Recipe Website**]', expanded=True):
+with st.expander(':blue[**3. Rating Prediction for a Recipe Website**]', expanded=True):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
@@ -45,7 +60,7 @@ with st.expander(':blue[**2. Rating Prediction for a Recipe Website**]', expande
 \n[**:blue[Click here to see the work]**](https://github.com/mahipal-z/Recipe-Rating-Prediction/blob/main/notebook.ipynb)
 ''')
 
-with st.expander(':blue[**3. Predicting Credit Card Approvals**]', expanded=True):
+with st.expander(':blue[**4. Predicting Credit Card Approvals**]', expanded=True):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
@@ -61,7 +76,7 @@ with st.expander(':blue[**3. Predicting Credit Card Approvals**]', expanded=True
 [**:blue[Click here to see the work]**](https://github.com/mahipal-z/Credit-card-approval-prediction/blob/main/notebook.ipynb)
 ''')
 
-with st.expander(':blue[**4. Performance prediction of Laboratory equipment**]', expanded=True):
+with st.expander(':blue[**5. Performance prediction of Laboratory equipment**]', expanded=True):
     st.markdown('''
 **:green[Problem Description:]** Fluid mechanics lab costs much time and capital in running the same experiments several times during a semester for educational purposes. We wanted to develop a tool that can predict the performance of centrifugal blower, a lab equipment, accurately to avoid performing actual experiments on it.
 \n**:green[Problem Type:]** Supervised Learning, Linear Regression
