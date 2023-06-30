@@ -21,13 +21,11 @@ with st.expander(':blue[**1. Social Media Post Analytics**]', expanded=True):
 \n**:green[Problem Type:]** Deep Learning, Generative AI, MLOps
 \n**:green[Solution:]** Using BART-based model for summarization and RoBERTa-based model for sentiment analysis, built a web application that allows user to select a post to return a dashboard with sentiment plot, summary table, and word cloud.
 \n**:green[Impact:]** Once deployed, the app can help Linkedin influencers to have a quick analysis of their content.
+\n**:green[Tools & Technology:]** Transformers, HuggingFace, Streamlit, Python, LLMs
 ''')
     with col2:
         st.image(image4)
-    st.markdown('''
-**:green[Tools & Technology:]** Transformers, HuggingFace, Streamlit, Python, LLMs
-''')
-
+    
 with st.expander(':blue[**2. Blood Donation Prediction**]', expanded=True):
     col1, col2 = st.columns(2)
     with col1:
