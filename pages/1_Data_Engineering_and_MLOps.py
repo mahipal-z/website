@@ -58,3 +58,18 @@ with st.expander(':blue[**3. Accelerating vaccine development using AI Engineeri
 \n**:green[Tools & Technology:]** Selenium, Web Scrapping, API integration, Machine learning, Streamlit
 \n[**:blue[Click here for Certificate of recognition]**](https://www.linkedin.com/posts/activity-7063171186083467264-xjIg/?utm_source=share&utm_medium=member_desktop)
 ''')
+
+with st.expander(':blue[**4. Forecasting Out-of-Pocket Treatment Cost for Lung Cancer Patients in United States**]', expanded=True):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown('''
+**:green[Problem Description:]** To provide fiancial guide for Lung Cancer pateints at the time of the diagnosis, client required a machine learning solution that can estimate the annual out-of-pocket cost for entire treatment.
+\n**:green[Problem Type:]** Data Collection, Data Validation, Supervised Learning, MLOps
+\n**:green[Solution:]** Cleaned, transformed and validated data, built a dashboard to deliver insights and analytics, trained the XGBregressor model to predict the cost and dockerized web application for the client to deploy on premises.
+''')
+    with col2:
+        st.image(image3)
+    st.markdown('''
+**:green[Impact:]** Over 40% of patients with stage 3&4 lung cancer declare personal bankruptcy within 4 years of diagnisis. This solution will serve as a financial guide for those people.
+\n**:green[Tools & Technology:]** MLFlow, Streamlit, Docker, Python
+''')
