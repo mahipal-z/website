@@ -4,6 +4,7 @@ image1 = Image.open('images/datalake.PNG')
 #image2 = Image.open('images/farm_params.jpg')
 image3 = Image.open('images/belyntic.PNG')
 image4 = Image.open('images/optimized-web-app.gif')
+image5 = Image.open('images/iryss_roadmap.PNG')
 
 st.set_page_config(layout="wide")
 st.header("Data Engineering and MLOps")
@@ -68,7 +69,7 @@ with st.expander(':blue[**4. Forecasting Out-of-Pocket Treatment Cost for Lung C
 \n**:green[Solution:]** Cleaned, transformed and validated data, built a dashboard to deliver insights and analytics, trained the XGBregressor model to predict the cost and dockerized web application for the client to deploy on premises.
 ''')
     with col2:
-        st.image(image3)
+        st.image(image5)
     st.markdown('''
 **:green[Impact:]** Over 40% of patients with stage 3&4 lung cancer declare personal bankruptcy within 4 years of diagnosis. This solution will serve as a financial guide for those people.
 \n**:green[Tools & Technology:]** MLFlow, Streamlit, Docker, Python
