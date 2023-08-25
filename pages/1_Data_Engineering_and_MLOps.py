@@ -70,6 +70,6 @@ with st.expander(':blue[**4. Forecasting Out-of-Pocket Treatment Cost for Lung C
     with col2:
         st.image(image3)
     st.markdown('''
-**:green[Impact:]** Over 40% of patients with stage 3&4 lung cancer declare personal bankruptcy within 4 years of diagnisis. This solution will serve as a financial guide for those people.
+**:green[Impact:]** Over 40% of patients with stage 3&4 lung cancer declare personal bankruptcy within 4 years of diagnosis. This solution will serve as a financial guide for those people.
 \n**:green[Tools & Technology:]** MLFlow, Streamlit, Docker, Python
 ''')
