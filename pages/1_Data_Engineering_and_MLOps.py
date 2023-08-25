@@ -64,7 +64,7 @@ with st.expander(':blue[**4. Forecasting Out-of-Pocket Treatment Cost for Lung C
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('''
-**:green[Problem Description:]** To provide fiancial guide for Lung Cancer pateints at the time of the diagnosis, client required a machine learning solution that can estimate the annual out-of-pocket cost for entire treatment.
+**:green[Problem Description:]** To provide financial guide for Lung Cancer patients at the time of the diagnosis, client required a machine learning solution that can estimate the annual out-of-pocket cost for entire treatment.
 \n**:green[Problem Type:]** Data Collection, Data Validation, Supervised Learning, MLOps
 \n**:green[Solution:]** Cleaned, transformed and validated data, built a dashboard to deliver insights and analytics, trained the XGBregressor model to predict the cost and dockerized web application for the client to deploy on premises.
 ''')
