@@ -60,6 +60,15 @@ with col2:
 
 st.divider()
 
+st.subheader('Tech Blogs')
+
+st.markdown("""[**Data Lake For Dummies**](https://medium.com/data-dynamics-and-cloud-navigation/data-lake-for-dummies-7f593a83f249) 
+\n[**How to build an EL[T] pipeline using Singer taps and Meltano CLI**](https://medium.com/@storiesbymahipal/how-to-build-an-el-t-pipeline-using-singer-taps-and-meltano-cli-84a8b519a4c0) 
+\n[**How to query S3 data in dbt using Redshift Spectrum**](https://medium.com/@storiesbymahipal/how-to-query-s3-data-in-dbt-using-redshift-spectrum-3188b7e7a684)
+\n[**Querying a machine learning model for Insights**](https://www.linkedin.com/pulse/querying-machine-learning-model-insights-mahipal-zanakat/)
+  """)
+
+st.divider()
 
 st.subheader('I could be a good company if')
 st.markdown("""
