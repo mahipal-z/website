@@ -42,7 +42,7 @@ with col1:
     st.title("About Me")
     st.markdown(
   """Everyday engineer who possesses a strong interest in everything data :bar_chart:, cloud :cloud:, and emerging technologies :robot_face:.
-  Someone who will enjoy being part of your Data/AI/ML team. """)
+  Someone who will enjoy being part of your Data/Analytics/AI team. """)
 
     st.markdown("""Currently invested in
     \n- Investigating EMR systems
