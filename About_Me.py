@@ -41,7 +41,7 @@ col1, col2 = st.columns([0.7, 0.3], gap="large")
 with col1:
     st.title("About Me")
     st.markdown(
-  """Everyday engineer who possesses a strong interest in everything data :bar_chart:, cloud :cloud:, and emerging technologies :robot_face:.
+  """Everyday engineer who possesses a strong interest in everything data :bar_chart:, cloud :cloud:, and emerging technologies :robot:.
   Someone who will enjoy being part of your Data/Analytics/AI team. """)
 
     st.markdown("""Currently invested in
