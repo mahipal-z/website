@@ -74,8 +74,8 @@ st.subheader('I could be a good company if')
 st.markdown("""
 You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.chess.com/W7Xra)
 \nor Hiking :runner: nearby or trying a new restaurant :shallow_pan_of_food:
-\nor Bowling :bowling:, Lifting Weights :person_lifting_weights:, Card games, Board games :game_die:, or for Cooking
-\nor you are willing to teach me Swimming :person_swimming:, Pool :8ball:, or Piano :musical_keyboard:
+\nor Bowling :bowling:, Lifting Weights 🏋️, Card games, Board games :game_die:, or for Cooking
+\nor you are willing to teach me Swimming 🏊, Pool :8ball:, or Piano :musical_keyboard:
 """)
 #    st.markdown()
 
