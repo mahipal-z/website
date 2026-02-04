@@ -15,6 +15,7 @@ image9 = Image.open('images/aws-certified-machine-learning-specialty.png')
 image10 = Image.open('images/uottawa.png')
 image11 = Image.open('images/stanford.png')
 image12 = Image.open('images/dc.PNG')
+image13 = Image.open('images/pl300badge.png')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
@@ -82,8 +83,10 @@ You challenge me to a game of Chess :chess_pawn: [@chess.com](https://friend.che
 st.divider()
 
 st.subheader("Certification")
-st.image([image3,image4,image5], width=200)
-st.image([image6,image7,image8,image9], width=170)
+st.markdown("""**Active**""")
+st.image([image6,image13], width=200)
+st.markdown("""**History**""")
+st.image([image3,image4,image5,image7,image8,image9], width=170)
 st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/users/mahipal-zanakat) | [**DataCamp**](https://www.datacamp.com/certificate/DS0021765360075)""")
 
 #components.html("""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8e92d3b3-1cfa-4ad3-8173-a4c06bb239a2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""
