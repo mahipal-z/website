@@ -41,7 +41,6 @@ with st.expander(':blue[**2. Farm Yield Analytics**]', expanded=True):
         st.image(image4)
     st.markdown('''
 **:green[Tools & Technology:]** Python, Pandas, Scikit-learn, Streamlit
-\n[**:blue[Click here to see Web Application]**](https://mahipal-z-farm-yield-analytics-streamlit-l00xze.streamlit.app/)
 ''')
 
 with st.expander(':blue[**3. Accelerating vaccine development using AI Engineering**]', expanded=True):
