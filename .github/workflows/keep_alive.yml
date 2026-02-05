@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Streamlit URL
         run: |
-          curl -I -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/110.0.0.0" https://mahipal-zanakat.streamlit.app/
+          curl -I --max-redirs 2 https://mahipal-zanakat.streamlit.app/ || true
