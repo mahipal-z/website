@@ -1,0 +1,14 @@
+name: Wake Up Streamlit
+on:
+  schedule:
+    # This runs at 8:00 AM and 8:00 PM UTC (Midnight & Noon PST in the Lower Mainland)
+    - cron: '0 8,20 * * *'
+  workflow_dispatch: # Allows you to run it manually to test
+
+jobs:
+  ping_app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit URL
+        run: |
+          curl -I -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/110.0.0.0" https://mahipal-zanakat.streamlit.app/
