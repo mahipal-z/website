@@ -16,7 +16,6 @@ image10 = Image.open('images/uottawa.png')
 image11 = Image.open('images/stanford.png')
 image12 = Image.open('images/dc.PNG')
 image13 = Image.open('images/pl300badge.png')
-image14 = Image.open('images/microsoft-certified-fundamentals-badge.svg')
 
 st.set_page_config( 
     page_title="Mahipal Zanakat",
@@ -85,7 +84,7 @@ st.divider()
 
 st.subheader("Certification")
 st.markdown("""**Active**""")
-st.image([image6,image13,image14], width=200)
+st.image([image6,image13,'images/microsoft-certified-fundamentals-badge.svg'], width=200)
 st.markdown("""**History**""")
 st.image([image3,image4,image5,image7,image8,image9], width=170)
 st.markdown("""**Validation Credentials** [**Credly**](https://www.credly.com/users/mahipal-zanakat) | [**DataCamp**](https://www.datacamp.com/certificate/DS0021765360075)""")
